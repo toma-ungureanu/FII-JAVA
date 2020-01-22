@@ -1,0 +1,10 @@
+.jfx-text-field, .jfx-password-field {
+    -fx-prompt-text-fill: WHITE;
+    -fx-text-fill: WHITE;
+    -jfx-focus-color: WHITE;
+    -jfx-unfocus-color: WHITE;
+}
+
+.hyperlink-text-area .text {
+    -fx-underline: true;
+}

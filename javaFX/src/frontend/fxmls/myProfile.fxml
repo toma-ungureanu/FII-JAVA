@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="670.0" style="-fx-background-color: #2F2FA2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.controllers.MyProfileController">
+   <children>
+      <Text fill="WHITE" layoutX="169.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Profile">
+         <font>
+            <Font name="MS Outlook" size="24.0" />
+         </font>
+      </Text>
+      <TableView id="usersTable" fx:id="usersTable" layoutX="32.0" layoutY="160.0" prefHeight="366.0" prefWidth="377.0">
+        <columns>
+            <TableColumn id="idColumn" fx:id="idColumn" prefWidth="52.799954414367676" text="Id" />
+          <TableColumn id="lastNameColumn" fx:id="lastNameColumn" prefWidth="85.60000610351562" text="Last name" />
+          <TableColumn id="firstNameColumn" fx:id="firstNameColumn" prefWidth="84.79998779296875" text="First name" />
+            <TableColumn id="passwordColumn" fx:id="passwordColumn" prefWidth="80.00001525878906" text="Password" />
+            <TableColumn id="emailColumn" fx:id="emailColumn" prefWidth="75.0" text="Email" />
+        </columns>
+      </TableView>
+      <GridPane layoutX="437.0" layoutY="160.0" prefHeight="366.0" prefWidth="204.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FD6051;" GridPane.rowIndex="8" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FD6051;" GridPane.rowIndex="6" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FD6051;" GridPane.rowIndex="4" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FD6051;" GridPane.rowIndex="2" />
+            <AnchorPane prefHeight="38.0" prefWidth="72.0" style="-fx-background-color: #FD6051;" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Id:">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name:" GridPane.rowIndex="2">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="First name:" GridPane.rowIndex="4">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" GridPane.rowIndex="6">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" GridPane.rowIndex="8">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text id="idField" fx:id="idField" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="1">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text id="lastNameField" fx:id="lastNameField" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="3">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text id="firstNameField" fx:id="firstNameField" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="5">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text id="passwordField" fx:id="passwordField" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="7">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+            <Text id="emailField" fx:id="emailField" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="9">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
+      <Text fill="WHITE" layoutX="33.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECT * FROM UTILIZATORI NATURAL JOIN EMAILS WHERE ID = USER_ID" textAlignment="CENTER" wrappingWidth="377.6000000000001">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="32.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR 1=1;" textAlignment="CENTER" wrappingWidth="377.6000000000001">
+         <font>
+            <Font name="MS Outlook" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="477.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Callable Statement">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="49.0" fitWidth="84.0" layoutX="120.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/loginIcon.png" />
+         </image>
+      </ImageView>
+      <Button id="statementsButton" fx:id="statementsButton" layoutX="511.0" layoutY="21.0" mnemonicParsing="false" onAction="#executeStatements" text="GO!">
+         <font>
+            <Font name="MS Outlook" size="18.0" />
+         </font>
+      </Button>
+      <Button id="homeButton" fx:id="homeButton" layoutX="119.0" layoutY="13.0" mnemonicParsing="false" onAction="#goHome" opacity="0.0" prefHeight="49.0" prefWidth="52.0" />
+   </children>
+</AnchorPane>

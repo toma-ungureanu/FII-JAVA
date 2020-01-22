@@ -1,0 +1,76 @@
+<component name="libraryTable">
+  <library name="velocity-tools-generic-3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/velocity-engine-scripting-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/anakia-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/velocity-engine-core-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/velocity-tools-view-3.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/velocity-tools-generic-3.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/velocity-engine-examples-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/velocity-tools-view-jsp-3.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/velocity-dvsl-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/texen-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/Animator" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/ArcTest" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/BarChart" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/Blink" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/CardTest" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/Clock" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/DitherTest" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/DrawTest" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/Fractal" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/GraphLayout" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/GraphicsTest" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/JumpingBox" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/MoleculeViewer" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/NervousText" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/SimpleGraph" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/SortDemo" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/SpreadSheet" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/TicTacToe" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/applets/WireFrame" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/3DViewer/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/3DViewer/src/test/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/Ensemble8/src/app/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/Ensemble8/src/compiletime/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/Ensemble8/src/generated/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/Ensemble8/src/samples/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/MandelbrotSet/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/javafx_samples/src/Modena/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/demo/nio/zipfs" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/annotations/DependencyChecker/PluginChecker/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/annotations/DependencyChecker/Plugins/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/annotations/Validator/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/forkjoin/mergesort" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jmx/jmx-scandir/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jmx/jmx-scandir/test" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/corba/src/core" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/corba/src/stubs" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/jreinstaller/src/share/classes" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/raf/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/servlet/apps/app1/src/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/servlet/apps/app2/src/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/servlet/apps/app3/src/java" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/servlet/src/classes" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/webpad/src/servlet" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/jnlp/webpad/src/version1" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/lambda/BulkDataOperations/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/lambda/DefaultMethods" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/nio/chatserver" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/nio/file" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/nio/multicast" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/nio/server" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/scripting/scriptpad/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/try-with-resources/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/webservices/EbayClient/src" />
+      <root url="jar://$USER_HOME$/Desktop/jdk-8u201-windows-x64-demos.zip!/jdk1.8.0_201/sample/webservices/EbayServer/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/velocity-engine-core-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

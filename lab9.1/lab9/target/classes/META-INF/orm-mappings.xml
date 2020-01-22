@@ -1,0 +1,45 @@
+<entity-mappings>
+    <entity class="oom.Person" name="Person">
+        <table name="PERSONS"/>
+        <schema name="DBA"/>
+        <attributes>
+            <id name="id">
+                <column name="ID" />
+                <generator class="assigned"/>
+            </id>
+            <id name="name">
+                <column name="NAME" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="oom.Actor" name="Actor">
+        <table name="ACTORS"/>
+        <schema name="DBA"/>
+        <attributes>
+            <id name="actorName"></id>
+            <id name="id"></id>
+            <id name="actorId"></id>
+        </attributes>
+    </entity>
+
+    <entity class="oom.Director" name="Director">
+        <table name="DIRECTORS"/>
+        <schema name="DBA"/>
+        <attributes>
+            <id name="directorName"></id>
+            <id name="id"></id>
+            <id name="directorId"></id>
+        </attributes>
+    </entity>
+
+    <entity class="oom.Movie" name="Movie">
+        <table name="MOVIES"/>
+        <schema name="DBA"/>
+        <attributes>
+            <id name="movieName"></id>
+            <id name="id"></id>
+        </attributes>
+    </entity>
+
+</entity-mappings>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+
+    <persistence-unit name="MoviesPU">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!--<mapping-file>file:///C:\Users\thomi\IdeaProjects\lab9.1\lab9\src\main\resources\META-INF\orm-mappings.xml</mapping-file>-->
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:derby://localhost:1527/Movies"/>
+            <property name="hibernate.connection.driver_class" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="hibernate.connection.username" value="dba"/>
+            <property name="hibernate.connection.password" value="sql"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
+

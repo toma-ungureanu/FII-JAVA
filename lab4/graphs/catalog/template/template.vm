@@ -1,0 +1,2 @@
+${welcome} ${user.name}!
+You are an ${user.type}.

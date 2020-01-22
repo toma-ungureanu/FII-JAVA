@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="10000" height="10000" id="Complete graph K4">
+<g style="fill:none;stroke:black;stroke-width:70">
+  <line x1="8536" y1="8536" x2="1464" y2="1464"/>
+  <polyline points="8536,1464 8536,8536 1464,8536 1464,1464 8536,1464 1464,8536"/>
+<g style="fill:blue">
+  <circle cx="8536" cy="1464" r="250"/>
+  <circle cx="8536" cy="8536" r="250"/>
+  <circle cx="1464" cy="8536" r="250"/>
+  <circle cx="1464" cy="1464" r="250"/>
+</g></g>
+</svg>

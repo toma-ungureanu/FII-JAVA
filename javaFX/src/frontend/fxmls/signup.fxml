@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="449.0" prefWidth="536.0" style="-fx-background-color: #FD6051;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.controllers.SignUpController">
+   <children>
+      <ImageView fitHeight="403.0" fitWidth="491.0" layoutX="39.0" layoutY="22.0" opacity="0.08" pickOnBounds="true" preserveRatio="true" rotate="-24.1">
+         <image>
+            <Image url="@../images/registerBackground.jpg" />
+         </image>
+         <effect>
+            <GaussianBlur radius="4.6" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="84.0" layoutX="212.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/loginIcon.png" />
+         </image>
+      </ImageView>
+      <Label id="signUpLabel" fx:id="signUpLabel" layoutX="261.0" prefHeight="54.0" prefWidth="216.0" text="Sign Up">
+         <font>
+            <Font name="MS Outlook" size="24.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="171.0" layoutY="60.0" prefHeight="322.0" prefWidth="226.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="31.6" minHeight="10.0" prefHeight="30.80001220703125" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="42.9999755859375" minHeight="10.0" prefHeight="25.39998779296875" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="61.6" minHeight="10.0" prefHeight="32.799981689453126" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="47.99997558593749" minHeight="0.0" prefHeight="28.800018310546875" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Last Name" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="216.0" text="First Name" textFill="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Label>
+            <TextField id="nameField" fx:id="firstNameField" prefHeight="35.0" prefWidth="206.0" styleClass="jfx-text-field" stylesheets="@../stylesheets/signUpStyleSheel.css" GridPane.rowIndex="5">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </TextField>
+            <Label prefHeight="22.0" prefWidth="216.0" text="Email address" textFill="WHITE" GridPane.rowIndex="6">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Label>
+            <TextField id="emailField" fx:id="emailField" prefHeight="35.0" prefWidth="216.0" styleClass="jfx-text-field" stylesheets="@../stylesheets/signUpStyleSheel.css" GridPane.rowIndex="7">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </TextField>
+            <Label prefHeight="22.0" prefWidth="216.0" text="Password" textFill="WHITE" GridPane.rowIndex="8">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Label>
+            <PasswordField id="passwordField" fx:id="passwordField" prefHeight="35.0" prefWidth="216.0" styleClass="jfx-password-field" stylesheets="@../stylesheets/signUpStyleSheel.css" GridPane.rowIndex="9">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </PasswordField>
+            <TextField id="lastNameField" fx:id="lastNameField" GridPane.rowIndex="3">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter your..." textAlignment="CENTER" wrappingWidth="226.8193359375" GridPane.rowIndex="1">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </Text>
+            <Text id="eventText" fx:id="eventText" fill="WHITE" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text id="generatedPassField" fx:id="generatedPassField" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="225.336669921875" GridPane.rowIndex="10">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
+      <ButtonBar layoutX="22.0" layoutY="395.0" prefHeight="40.0" prefWidth="478.0">
+         <buttons>
+            <Button id="resetButton" fx:id="resetButton" mnemonicParsing="false" onAction="#reset" prefHeight="38.0" prefWidth="83.0" style="-fx-background-color: #2F2FA2;" styleClass="resetButton" text="Reset" textFill="WHITE">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Button>
+            <Button id="generatePass" fx:id="generatePass" mnemonicParsing="false" onAction="#generatePassword" prefHeight="38.0" prefWidth="142.0" style="-fx-background-color: #2F2FA2;" text="Random Password" textFill="WHITE">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Button>
+            <Button id="registerButton" mnemonicParsing="false" onAction="#signUp" prefHeight="38.0" prefWidth="83.0" style="-fx-background-color: #2F2FA2;" text="Register" textFill="WHITE">
+               <font>
+                  <Font name="MS Outlook" size="15.0" />
+               </font>
+            </Button>
+         </buttons>
+      </ButtonBar>
+      <Button id="backButton" fx:id="backButton" layoutX="212.0" layoutY="-2.0" mnemonicParsing="false" onAction="#goBackToLogin" opacity="0.0" prefHeight="54.0" prefWidth="50.0" style="-fx-background-color: #2F2FA2;" text="Back to login" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="MS Outlook" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

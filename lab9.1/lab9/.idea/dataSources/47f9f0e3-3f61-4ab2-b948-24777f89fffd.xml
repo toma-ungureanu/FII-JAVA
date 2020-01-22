@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Movies@localhost">
+  <database-model serializer="dbm" dbms="DERBY" family-id="DERBY" format-version="4.14">
+    <root id="1">
+      <ServerVersion>10.14.2.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="APP"/>
+    <schema id="3" parent="1" name="DBA">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="1" name="NULLID"/>
+    <schema id="5" parent="1" name="SQLJ"/>
+    <schema id="6" parent="1" name="SYS"/>
+    <schema id="7" parent="1" name="SYSCAT"/>
+    <schema id="8" parent="1" name="SYSCS_DIAG"/>
+    <schema id="9" parent="1" name="SYSCS_UTIL"/>
+    <schema id="10" parent="1" name="SYSFUN"/>
+    <schema id="11" parent="1" name="SYSIBM"/>
+    <schema id="12" parent="1" name="SYSPROC"/>
+    <schema id="13" parent="1" name="SYSSTAT"/>
+    <table id="14" parent="3" name="ACTORS"/>
+    <table id="15" parent="3" name="DIRECTORS"/>
+    <table id="16" parent="3" name="MOVIES"/>
+    <table id="17" parent="3" name="MOVIE_ACTORS"/>
+    <table id="18" parent="3" name="MOVIE_DIRECTORS"/>
+    <table id="19" parent="3" name="PERSONS"/>
+    <column id="20" parent="14" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
+    </column>
+    <column id="21" parent="14" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="14" name="ACTOR_ID">
+      <Position>3</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="23" parent="14" name="SQL190507173429282">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="24" parent="14" name="SQL190507173429280">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="25" parent="14" name="SQL190507173429281">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ACTOR_ID</ColNames>
+    </index>
+    <key id="26" parent="14" name="SQL190507173429282">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="27" parent="14" name="SQL190507173429280">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+    </key>
+    <foreign-key id="28" parent="14" name="SQL190507173429281">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ACTOR_ID</ColNames>
+      <RefTableName>PERSONS</RefTableName>
+      <RefKeyName>SQL190507173429201</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="29" parent="15" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
+    </column>
+    <column id="30" parent="15" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="15" name="DIRECTOR_ID">
+      <Position>3</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="32" parent="15" name="SQL190507173429362">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="33" parent="15" name="SQL190507173429360">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="34" parent="15" name="SQL190507173429361">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DIRECTOR_ID</ColNames>
+    </index>
+    <key id="35" parent="15" name="SQL190507173429362">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="36" parent="15" name="SQL190507173429360">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+    </key>
+    <foreign-key id="37" parent="15" name="SQL190507173429361">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DIRECTOR_ID</ColNames>
+      <RefTableName>PERSONS</RefTableName>
+      <RefKeyName>SQL190507173429201</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="38" parent="16" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
+    </column>
+    <column id="39" parent="16" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="40" parent="16" name="SQL190507173429441">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="41" parent="16" name="SQL190507173429440">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="16" name="SQL190507173429441">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="43" parent="16" name="SQL190507173429440">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+    </key>
+    <column id="44" parent="17" name="MOVIE_ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="17" name="ACTOR_ID">
+      <Position>2</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="17" name="SQL190507173429492">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID
+ACTOR_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="47" parent="17" name="SQL190507173429490">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID</ColNames>
+    </index>
+    <index id="48" parent="17" name="SQL190507173429491">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ACTOR_ID</ColNames>
+    </index>
+    <key id="49" parent="17" name="SQL190507173429492">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID
+ACTOR_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="50" parent="17" name="SQL190507173429490">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID</ColNames>
+      <RefTableName>MOVIES</RefTableName>
+      <RefKeyName>SQL190507173429441</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="51" parent="17" name="SQL190507173429491">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ACTOR_ID</ColNames>
+      <RefTableName>ACTORS</RefTableName>
+      <RefKeyName>SQL190507173429282</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="52" parent="18" name="MOVIE_ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="18" name="DIRECTOR_ID">
+      <Position>2</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="54" parent="18" name="SQL190507173429562">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID
+DIRECTOR_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="55" parent="18" name="SQL190507173429560">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID</ColNames>
+    </index>
+    <index id="56" parent="18" name="SQL190507173429561">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DIRECTOR_ID</ColNames>
+    </index>
+    <key id="57" parent="18" name="SQL190507173429562">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID
+DIRECTOR_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="58" parent="18" name="SQL190507173429560">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MOVIE_ID</ColNames>
+      <RefTableName>MOVIES</RefTableName>
+      <RefKeyName>SQL190507173429441</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="59" parent="18" name="SQL190507173429561">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DIRECTOR_ID</ColNames>
+      <RefTableName>DIRECTORS</RefTableName>
+      <RefKeyName>SQL190507173429362</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="60" parent="19" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
+    </column>
+    <column id="61" parent="19" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="62" parent="19" name="SQL190507173429201">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="63" parent="19" name="SQL190507173429200">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="19" name="SQL190507173429201">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="65" parent="19" name="SQL190507173429200">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+    </key>
+  </database-model>
+</dataSource>
